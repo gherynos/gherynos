@@ -1,7 +1,31 @@
 ---
 # yamllint disable rule:line-length
 repos:
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v4.5.0
+    hooks:
+      - id: check-json
+      - id: check-merge-conflict
+      - id: trailing-whitespace
+      - id: check-yaml
+        exclude: app.yaml$
+        args: [ --allow-multiple-documents ]
+      - id: check-xml
+      - id: check-added-large-files
+      - id: pretty-format-json
+        args:
+          - --autofix
+      - id: detect-private-key
+      - id: check-toml
   - repo: https://github.com/igorshubovych/markdownlint-cli
     rev: v0.39.0
     hooks:
       - id: markdownlint
+  - repo: local
+    hooks:
+      - id: readme
+        name: readme
+        entry: python readme.py
+        language: python
+        require_serial: true
+        pass_filenames: false

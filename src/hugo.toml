@@ -1,0 +1,50 @@
+defaultContentLanguage = "en"
+languageCode = "en"
+title = "Gherynos"
+theme = "gokarna"
+baseURL = "https://gherynos.com/"
+
+enableRobotsTXT = true
+enableEmoji = true
+enableGitInfo = true
+
+[frontmatter]
+date = [':git']
+
+[params]
+avatarURL = "/images/photo.jpg"
+description = "Husband, coder, cryptography enthusiast, poet, musician, archer."
+accentColor = "#2596be"
+footer = "Luca Zanconato"
+socialIcons = [
+    { name = "github", url = "https://github.com/gherynos" },
+    { name = "keybase", url = "https://keybase.io/gherynos" },
+    { name = "poetry", url = "https://gherynos.art/poesie" },
+    { name = "music", url = "https://gherynos.art/music" },
+    { name = "linkedin", url = "http://www.linkedin.com/in/lucazanconato" },
+]
+
+[menu]
+[[menu.main]]
+name = "Home"
+pre = "<span data-feather='home'></span>"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Projects"
+pre = "<span data-feather='book'></span>"
+url = "/projects/"
+weight = 2
+
+[[menu.main]]
+identifier = "rss"
+pre = "<span data-feather='rss'></span>"
+url = "/index.xml"
+weight = 3
+
+[markup]
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+unsafe = true

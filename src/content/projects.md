@@ -1,4 +1,7 @@
-# Hi there :wave: :smiley:
++++
+title = "Projects"
+type = "page"
++++
 
 - :closed_lock_with_key: Cryptography
   - [Secrete](https://github.com/gherynos/secrete) - ECIES implementation with Curve25519
@@ -12,8 +15,3 @@
   - [Drive Host](https://github.com/gherynos/drivehost) - Static website hosting with Google Drive
 - [:black_nib: Poetry and :musical_score: music](https://gherynos.art)
 - :radio: Ham Radio - [M0HSE](https://www.qrz.com/db/M0HSE)
-
----
-
-[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/gherynos/gherynos/main.svg)](https://results.pre-commit.ci/latest/github/gherynos/gherynos/main)
-[![GitHub Pages](https://github.com/gherynos/gherynos/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/gherynos/gherynos/actions/workflows/gh-pages.yml)
