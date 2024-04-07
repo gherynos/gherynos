@@ -21,3 +21,11 @@ repos:
     rev: v0.39.0
     hooks:
       - id: markdownlint
+  - repo: local
+    hooks:
+      - id: readme
+        name: readme
+        entry: python readme.py
+        language: python
+        require_serial: true
+        pass_filenames: false
