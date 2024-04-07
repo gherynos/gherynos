@@ -16,3 +16,4 @@
 ---
 
 [![pre-commit.ci status](https://results.pre-commit.ci/badge/github/gherynos/gherynos/main.svg)](https://results.pre-commit.ci/latest/github/gherynos/gherynos/main)
+[![GitHub Pages](https://github.com/gherynos/gherynos/actions/workflows/gh-pages.yml/badge.svg)](https://github.com/gherynos/gherynos/actions/workflows/gh-pages.yml)
