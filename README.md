@@ -8,8 +8,6 @@
 - :cloud: Cloud and IaC
   - [Vault Backend](https://github.com/gherynos/vault-backend) - A Terraform HTTP backend that stores the state in a Vault secret
   - [pre-commit-java](https://github.com/gherynos/pre-commit-java) - A collection of git hooks for Java to be used with the [pre-commit](https://pre-commit.com) framework
-  - [Drive Copy](https://github.com/gherynos/drivecopy) - A simple command line utility to download, replace and upload Google Drive binary files
-  - [Drive Host](https://github.com/gherynos/drivehost) - Static website hosting with Google Drive
 - [:black_nib: Poetry and :musical_keyboard: music](https://gherynos.art)
 - :radio: Ham Radio - [M0HSE](https://www.qrz.com/db/M0HSE)
 
